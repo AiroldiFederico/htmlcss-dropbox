@@ -9,14 +9,14 @@
 .flex {display: flex;}
 .flex-between {display: flex; justify-content: space-between;}
 .flex-align {display: flex; align-items: center;}
-
+.flex-bas-2 { flex-basis: 50%;}
 
 .mrg-lft-20 { margin-left: 20px;}
 .mrg-rgt-20 { margin-right: 20px;}
 .mrg-lft-10 {margin-left: 10px;}
 .mrg-rgt-10 {margin-right: 10px;}
 .mrg-10 { margin-bottom: 10px;}
-
+.mrg-bttm-40 {margin-bottom: 40px;}
 
 body {
     font-family: sans-serif;
@@ -36,6 +36,16 @@ a {
     /* margin-right: 8px; */
 }
 
+.button1 {
+    padding: 8px 18px;
+    background-color: #0160ff;
+    color: white;
+}
+
+.generic-text {
+    font-size: 20px;
+}
+
 /* -------------------------------- */
 /* HEADER */
 
@@ -43,7 +53,7 @@ a {
 /* HEADER *//*NAVBAR*/
 
 nav {
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(255, 255, 255);
     align-items: center;
     padding: 15px;
 }
@@ -57,12 +67,42 @@ nav {
     justify-content: space-around;
 }
 
-#inizia {
-    padding: 8px 18px;
-    background-color: #0160ff;
-    color: white;
+
+/* HEADER *//*SECTION*/
+
+header > section {
+    background-color: #b5d1e7;    
 }
 
+h1 {
+    padding: 50px 0px;
+    font-size: 77px;
+    /* white-space: wrap; */
+    font-family: 'Rubik', sans-serif;
+}
+
+#content-header {
+    max-height: 380px;
+}
+
+#txt-buttn {
+    position: relative;
+}
+
+#txt2-head {
+    margin-top: 40px;
+}
+
+#jumbo {
+    width: 800px;
+}
+
+#arrw-dwn {
+    font-size: 44px;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+}
 
 
 /* -------------------------------- */
