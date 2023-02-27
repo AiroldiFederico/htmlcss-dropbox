@@ -110,7 +110,7 @@ h1 {
 /* MAIN */
 
 main {
-    margin-top: 160px;
+    margin-top: 130px;
 }
 
 h2 {
@@ -156,7 +156,7 @@ form > label {
 
 .card {
     width: 30%;
-    min-height: 1000px; /*temp*/
+    /*min-height: 1000px; temp*/
     border: solid lightgray;
 }
 
