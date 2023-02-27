@@ -17,6 +17,7 @@
 .mrg-rgt-10 {margin-right: 10px;}
 .mrg-10 { margin-bottom: 10px;}
 .mrg-bttm-40 {margin-bottom: 40px;}
+.mrg-bttm-20 {margin-bottom: 20px;}
 .mrg-top-40 {margin-top: 40px;}
 
 body {
@@ -218,6 +219,29 @@ ul > li {
 
 hr {
     max-width: 50px;
+}
+
+/* MAIN *//*container*//*Wide card*/
+
+.card2 {
+    border: solid lightgray;
+}
+
+.container2 {
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+
+.button3 {
+    padding: 10px;
+    width: 25%;
+    position: absolute;
+    background-color: #0160ff;
+    color: white;
+    border: none;
+    top: 0;
+    right: 0;
 }
 
 
