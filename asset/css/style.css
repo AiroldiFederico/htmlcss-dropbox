@@ -1,10 +1,10 @@
 /* -------------------------------- */
 /* UTILITY */
 
-.wid-80 {
-    margin: auto;
-    width: 60%;
-}
+.wid-80 {margin: auto; width: 80%;}
+.wid-60 {margin: auto; width: 60%;}
+.wid-50 {margin: auto; width: 50%;}
+
 
 .flex {display: flex;}
 .flex-between {display: flex; justify-content: space-between;}
@@ -107,6 +107,36 @@ h1 {
 
 /* -------------------------------- */
 /* MAIN */
+
+main {
+    margin-top: 160px;
+}
+
+h2 {
+    padding: 50px 0px;
+    font-size: 37px;
+    /* white-space: wrap; */
+    font-family: 'Rubik', sans-serif;
+}
+
+
+input[type="radio"] {
+    background-color: rgb(90, 70, 248);
+    font: inherit;
+    color: gray;
+    width: 1.5em;
+    height: 1.5em;
+    border: 0.12em solid lightblue;
+    border-radius: 50%;
+    transform: translateY(0.35em);
+  }
+
+  form > label {
+    margin-right: 30px;
+  }
+
+
+
 
 
 
