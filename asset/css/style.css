@@ -17,6 +17,7 @@
 .mrg-rgt-10 {margin-right: 10px;}
 .mrg-10 { margin-bottom: 10px;}
 .mrg-bttm-40 {margin-bottom: 40px;}
+.mrg-top-40 {margin-top: 40px;}
 
 body {
     font-family: sans-serif;
@@ -119,24 +120,44 @@ h2 {
     font-family: 'Rubik', sans-serif;
 }
 
+input[type="radio"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    /* For iOS < 15 to remove gradient background */
+    background-color: #fff;
+    /* Not removed via appearance */
+    margin: 0;
+  }
 
 input[type="radio"] {
-    background-color: rgb(90, 70, 248);
+    appearance: none;
+    background-color: rgb(253, 253, 253);
     font: inherit;
-    color: gray;
+    color: rgb(171, 171, 171);
     width: 1.5em;
     height: 1.5em;
-    border: 0.12em solid lightblue;
+    border: 0.15em solid rgb(194, 194, 194);
     border-radius: 50%;
     transform: translateY(0.35em);
-  }
+}
 
-  form > label {
+/* When the radio button is checked, add a blue background */
+input:checked {
+    background-color: #ffffff;
+    border: 0.35em solid rgb(79, 91, 255);
+}
+
+form > label {
     margin-right: 30px;
-  }
+}
 
 
-
+.card {
+    width: 30%;
+    min-height: 1000px; /*temp*/
+    border: solid lightgray;
+}
 
 
 
