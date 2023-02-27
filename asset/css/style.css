@@ -9,7 +9,7 @@
 .flex {display: flex;}
 .flex-between {display: flex; justify-content: space-between;}
 .flex-align {display: flex; align-items: center;}
-.flex-bas-2 { flex-basis: 50%;}
+.flex-bas-2 { flex-basis: 50;}
 
 .mrg-lft-20 { margin-left: 20px;}
 .mrg-rgt-20 { margin-right: 20px;}
@@ -158,14 +158,14 @@ form > label {
 .card {
     width: 30%;
     /*min-height: 1000px; temp*/
-    border: solid lightgray;
+    border: solid rgba(203, 203, 203, 0.250);
 }
 
 
 .head-card {
     display: flex;
     justify-content: center;
-    border-bottom: solid lightgray;
+    border-bottom: solid rgba(203, 203, 203, 0.250);
 }
 .head-card span{
     padding: 10px 0;
@@ -224,7 +224,7 @@ hr {
 /* MAIN *//*container*//*Wide card*/
 
 .card2 {
-    border: solid lightgray;
+    border: solid rgba(203, 203, 203, 0.250);
 }
 
 .container2 {
@@ -244,6 +244,42 @@ hr {
     right: 0;
 }
 
+/* MAIN *//*panel*/
+
+#panel {
+    margin-top: 140px;
+}
+
+#img-panel {
+    width: 100%;
+}
+
+#caption-panel {
+    padding: 40px;
+    flex-basis: 40%;
+    flex-direction: column;
+}
+
+#div1-panel {
+    flex-basis: 60%;
+}
+
+.title-container2 {
+    font-size: 27px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#p-panel {
+    color: rgb(43, 43, 43);
+}
+
+
+.button4 {
+    padding: 8px 18px;
+    color: rgb(53, 53, 53);
+    background-color: #fff;
+    border: solid rgb(170, 170, 170);
+}
 
 
 /* -------------------------------- */
