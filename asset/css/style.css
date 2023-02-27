@@ -194,8 +194,33 @@ form > label {
 
 ul > li {
     list-style-type: none;
-    margin: 15px 0px;
+    margin: 20px 0px;
 }
+
+.button2 {
+    width: 100%;
+    padding: 10px;
+    background-color: #0160ff;
+    color: white;
+    border: none;
+}
+
+#c2a {
+
+}
+
+
+.a-basic {
+    outline:#0160ff;
+    text-decoration:underline;
+    color: #0160ff;
+}
+
+hr {
+    max-width: 50px;
+}
+
+
 
 /* -------------------------------- */
 /* FOOTER */
