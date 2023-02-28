@@ -321,7 +321,6 @@ hr {
 .block {
     height: 100%;
     width: calc(100%/3);
-    border: dashed red;
     position: relative;
 }
 
@@ -378,11 +377,26 @@ hr {
 .img8 {background-color: #ffd931;}
 
 
+#div-box-center {background-color: #f4f4f5;}
 
+#box-cent {
+    padding: 40px;
+}
 
+#box-cent > img {
+    width: 300px;
+    margin-bottom: 40px;
+}
 
+#box-cent > hr {
+    margin-bottom: 40px;
+    min-width: 150px;
 
+}
 
+#box-cent > p {
+    margin-bottom: 40px;
+}
 
 
 
