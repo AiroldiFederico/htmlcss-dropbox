@@ -435,3 +435,33 @@ hr {
 /* -------------------------------- */
 /* FOOTER */
 
+footer {
+    height: 400px;
+    background-color: black;
+    color: white;
+}
+
+.ftt-title {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.div-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+}
+
+.leng-fter {
+    align-items: center;
+}
+
+.lng-arrw {
+    padding: 15px;
+    padding-top: 20px;
+}
+
+#colorlngfooter {
+    color: rgb(172, 172, 172);
+}
