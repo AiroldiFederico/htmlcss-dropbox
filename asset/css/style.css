@@ -287,11 +287,17 @@ hr {
 }
 
 .sec-boards > div {
-    width: 32%;
-    height: 500px;
-    background-color: antiquewhite;
-    border: dotted blue;
+    width: 30%;
     margin-bottom: 40px;
+}
+
+.img-board {
+    width: 100%;
+}
+
+.p-board {
+    color: rgb(48, 48, 48);
+    margin-top: 20px;
 }
 
 
