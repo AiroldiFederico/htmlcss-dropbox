@@ -300,6 +300,68 @@ hr {
     margin-top: 20px;
 }
 
+/* MAIN *//*h2*/
+
+#fourth-title {
+    max-width: 60%;
+}
+
+/*MAIN*//*SECTION WV*/
+
+.section-wv {
+    margin-top: 80px;
+    width: 100vw;
+    background-color: #b5d1e7;
+    height: 900px;
+}
+
+.grid-img {
+    height: 600px;
+    width: 100%;
+    background-color: bisque;
+    order: 999;
+}
+
+.block {
+    height: 100%;
+    width: calc(100%/3);
+    border: dashed red;
+    position: relative;
+}
+
+
+.blk1 { 
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0; left: 0;
+    border: dotted green;
+}
+
+.blk2 { 
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0; right: 0;
+    border: dotted green;
+}
+
+.blk3 { 
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 0; left: 0;
+    border: dotted green;
+}
+
+.blk4 { 
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 0; right: 0;
+    border: dotted green;
+}
+
 
 /* -------------------------------- */
 /* FOOTER */
