@@ -122,12 +122,9 @@ h2 {
 }
 
 input[type="radio"] {
-    /* Add if not using autoprefixer */
     -webkit-appearance: none;
     appearance: none;
-    /* For iOS < 15 to remove gradient background */
     background-color: #fff;
-    /* Not removed via appearance */
     margin: 0;
   }
 
@@ -279,6 +276,22 @@ hr {
     color: rgb(53, 53, 53);
     background-color: #fff;
     border: solid rgb(170, 170, 170);
+}
+
+/* MAIN *//*Boards*/
+
+.sec-boards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sec-boards > div {
+    width: 32%;
+    height: 500px;
+    background-color: antiquewhite;
+    border: dotted blue;
+    margin-bottom: 40px;
 }
 
 
