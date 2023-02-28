@@ -336,6 +336,7 @@ hr {
     position: absolute;
     top: 0; left: 0;
     border: dotted green;
+    display: flex;
 }
 
 .blk2 { 
@@ -344,6 +345,7 @@ hr {
     position: absolute;
     top: 0; right: 0;
     border: dotted green;
+    display: flex;
 }
 
 .blk3 { 
@@ -352,6 +354,7 @@ hr {
     position: absolute;
     bottom: 0; left: 0;
     border: dotted green;
+    display: flex;
 }
 
 .blk4 { 
@@ -360,8 +363,17 @@ hr {
     position: absolute;
     bottom: 0; right: 0;
     border: dotted green;
+    display: flex;
 }
 
+.img-box {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate( -50%, -50%);
+    width: 50%;
+    filter: invert(1);
+}
 
 /* -------------------------------- */
 /* FOOTER */
