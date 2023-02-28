@@ -291,9 +291,7 @@ hr {
     margin-bottom: 40px;
 }
 
-.img-board {
-    width: 100%;
-}
+.img-board {width: 100%;}
 
 .p-board {
     color: rgb(48, 48, 48);
@@ -302,9 +300,7 @@ hr {
 
 /* MAIN *//*h2*/
 
-#fourth-title {
-    max-width: 60%;
-}
+#fourth-title {max-width: 60%;}
 
 /*MAIN*//*SECTION WV*/
 
@@ -335,7 +331,6 @@ hr {
     height: 50%;
     position: absolute;
     top: 0; left: 0;
-    border: dotted green;
     display: flex;
 }
 
@@ -344,7 +339,6 @@ hr {
     height: 50%;
     position: absolute;
     top: 0; right: 0;
-    border: dotted green;
     display: flex;
 }
 
@@ -353,7 +347,6 @@ hr {
     height: 50%;
     position: absolute;
     bottom: 0; left: 0;
-    border: dotted green;
     display: flex;
 }
 
@@ -362,7 +355,6 @@ hr {
     height: 50%;
     position: absolute;
     bottom: 0; right: 0;
-    border: dotted green;
     display: flex;
 }
 
@@ -374,6 +366,25 @@ hr {
     width: 50%;
     filter: invert(1);
 }
+
+
+.img1 {background-color: #a2d39b;border: solid #d0e9cc 10px;}
+.img2 {background-color: #60092b;}
+.img3 {background-color: #0092cf;}
+.img4 {background-color: #ff1c1c;}
+.img5 {background-color: #d5011e;}
+.img6 {background-color: #b5d1e7;}
+.img7 {background-color: #0c2581;}
+.img8 {background-color: #ffd931;}
+
+
+
+
+
+
+
+
+
 
 /* -------------------------------- */
 /* FOOTER */
