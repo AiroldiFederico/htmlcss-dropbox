@@ -64,6 +64,10 @@ nav {
     background-color: rgb(255, 255, 255);
     align-items: center;
     padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
 }
 
 #nav-bar-left {justify-content: space-around;}
@@ -150,7 +154,6 @@ form > label {
     border: solid rgba(203, 203, 203, 0.250);
 }
 
-
 .head-card {
     display: flex;
     justify-content: center;
@@ -185,7 +188,10 @@ form > label {
 ul > li {
     list-style-type: none;
     margin: 20px 0px;
+    /* text-indent: -0.6 em; */
 }
+
+
 
 .button2 {
     width: 100%;
@@ -207,6 +213,9 @@ ul > li {
 hr {
     max-width: 50px;
 }
+
+
+
 
 /* MAIN *//*container*//*Wide card*/
 
